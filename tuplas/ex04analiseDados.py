@@ -1,12 +1,11 @@
 #LE 4 numeros do usuario
-n1 = int(input('Digite um numero: '))
-n2 = int(input('Digite mais um numero: '))
-n3 = int(input('Digite outro numero: '))
-n4 = int(input('Digite o ultimo numero: '))
+tupla = (int(input('Digite um numero: ')),
+         int(input('Digite mais um numero: ')),
+         int(input('Digite outro numero: ')),
+         int(input('Digite o ultimo numero: ')))
 
 #CONTA QUANTOS NUMEROS PARES TEM
 pares = 0
-tupla = n1, n2, n3, n4,
 for c in tupla:
     if c % 2 == 0:
         pares += 1
